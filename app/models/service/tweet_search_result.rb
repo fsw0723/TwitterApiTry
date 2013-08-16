@@ -8,7 +8,6 @@ module Service
 
     def to_model
       @tweets.each do |tweet|
-        #puts "from:#{tweet.from_user}"
         Tweet.new(created_at: tweet.created_at,text:tweet.text, from_user:tweet.from_user)
       end
 

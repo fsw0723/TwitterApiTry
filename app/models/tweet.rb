@@ -6,6 +6,6 @@
     end
 
     def self.find_all params
-      Service::TweetSearch.search
+      Service::TweetSearch.search params
     end
   end

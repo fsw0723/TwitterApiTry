@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" name="Default" comment="" />
+    <list default="true" id="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/tweet.rb" afterPath="$PROJECT_DIR$/app/models/tweet.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/service/tweet_search.rb" afterPath="$PROJECT_DIR$/app/models/service/tweet_search.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/service/tweet_search_result.rb" afterPath="$PROJECT_DIR$/app/models/service/tweet_search_result.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/service/tweet_search_spec.rb" afterPath="$PROJECT_DIR$/spec/models/service/tweet_search_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="GoogelApiTry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376641671916" ignored="false" />
-    <file path="/Dummy.txt" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376640113810" ignored="false" />
+    <file path="/a.dummy" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376643494388" ignored="false" />
+    <file path="/Dummy.txt" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376645644982" ignored="false" />
     <file path="/routes.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376640157566" ignored="false" />
     <file path="/application.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376639926374" ignored="false" />
     <file path="/environment.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376639661435" ignored="false" />
@@ -17,10 +24,14 @@
     <file path="/application.html.erb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376639915434" ignored="false" />
     <file path="/Rakefile" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376639987291" ignored="false" />
     <file path="/tweets_controller.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376640430289" ignored="false" />
-    <file path="/tweet.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376642174608" ignored="false" />
+    <file path="/tweet.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376644317744" ignored="false" />
     <file path="/index.rabl" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376642267536" ignored="false" />
     <file path="/tweet_search_result.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376642161076" ignored="false" />
     <file path="/tweet_search_result_spec.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376642197879" ignored="false" />
+    <file path="/twitter_config.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376643637432" ignored="false" />
+    <file path="/tweet_search.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376644490778" ignored="false" />
+    <file path="/twitter_session.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376644242069" ignored="false" />
+    <file path="/tweet_search_spec.rb" changelist="a09ef9dd-744c-4cc8-a603-eeb2bf409f71" time="1376645317291" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +63,7 @@
       <file leaf-file-name="tweet.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/tweet.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="48" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="8" column="40" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,10 +78,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweet_search.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tweet_search.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/service/tweet_search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="526" selection-end="526" vertical-scroll-proportion="0.44117647">
+            <state line="8" column="23" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitter_session.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/service/twitter_session.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="72" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitter_config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/twitter_config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="31" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tweet_search_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/service/tweet_search_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="90" selection-start="248" selection-end="248" vertical-scroll-proportion="0.13846155">
               <folding />
             </state>
           </provider>
@@ -79,7 +117,7 @@
       <file leaf-file-name="tweet_search_result.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/service/tweet_search_result.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="72" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="12" column="66" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +126,7 @@
       <file leaf-file-name="tweet_search_result_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/service/tweet_search_result_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+            <state line="2" column="82" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +135,7 @@
       <file leaf-file-name="index.rabl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tweets/index.rabl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="41" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="1" column="59" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,13 +148,17 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environment.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/config/initializers/secret_token.rb" />
         <option value="$PROJECT_DIR$/config/initializers/session_store.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -125,20 +167,24 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tweets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/index.rabl" />
-        <option value="$PROJECT_DIR$/app/models/service/tweet_search_result.rb" />
-        <option value="$PROJECT_DIR$/app/models/tweet.rb" />
         <option value="$PROJECT_DIR$/spec/models/service/tweet_search_result_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/tweets/index.rabl" />
+        <option value="$PROJECT_DIR$/config/initializers/twitter_config.rb" />
+        <option value="$PROJECT_DIR$/app/models/service/twitter_session.rb" />
+        <option value="$PROJECT_DIR$/app/models/tweet.rb" />
+        <option value="$PROJECT_DIR$/app/models/service/tweet_search.rb" />
+        <option value="$PROJECT_DIR$/app/models/service/tweet_search_result.rb" />
+        <option value="$PROJECT_DIR$/spec/models/service/tweet_search_spec.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="20" />
-    <option name="y" value="28" />
+    <option name="y" value="22" />
     <option name="width" value="1420" />
     <option name="height" value="798" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -164,7 +210,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,14 +428,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TravelAPI" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
@@ -678,15 +728,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="28" width="1420" height="798" extended-state="0" />
+    <frame x="20" y="22" width="1420" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2569141" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26055312" sideWeight="0.6704708" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -695,6 +744,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -761,32 +811,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="509" selection-end="509" vertical-scroll-proportion="0.26745912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="667" selection-end="667" vertical-scroll-proportion="0.27272728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
@@ -817,30 +844,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tweet.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="57" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/service/tweet_search_result_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/service/tweet_search_result.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="72" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -852,23 +858,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tweets/index.rabl">
+    <entry file="file://$PROJECT_DIR$/spec/cassettes/Service_TweetSearch/should_return_one_hash_result.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="41" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.670645" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/twitter_config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/cassettes/Service_TweetSearch/should_return_one_hash_result.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/tweet.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.670645">
+        <state line="8" column="40" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/service/tweet_search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="526" selection-end="526" vertical-scroll-proportion="0.44117647">
+        <state line="8" column="23" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tweets/index.rabl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="59" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/service/tweet_search_result.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/service/tweet_search_result_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="82" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/service/twitter_session.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="72" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/service/tweet_search_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="90" selection-start="248" selection-end="248" vertical-scroll-proportion="0.13846155">
           <folding />
         </state>
       </provider>
