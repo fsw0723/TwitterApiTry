@@ -1,3 +1,4 @@
+require 'twitter'
 module Service
   class TweetSearch
 
