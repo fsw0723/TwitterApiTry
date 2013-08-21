@@ -7,6 +7,6 @@ class User
 
   def self.fetch params
     this_user = Service::UserFetch.fetch_user params
-    puts "2: #{this_user.name}"
+    return this_user
   end
 end

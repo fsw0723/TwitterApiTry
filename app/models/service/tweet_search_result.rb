@@ -1,16 +1,15 @@
-require 'twitter'
 
 module Service
   class TweetSearchResult
     def initialize tweets
-      @tweets = tweets
+      @tweets = tweets['statuses']
     end
 
     def to_model
-      @tweets.each do |tweet|
-        Tweet.new(created_at: tweet.created_at,text:tweet.text, from_user:tweet.from_user)
+      @tweets.map! do |tweet|
+        Tweet.new(created_at: tweet['created_at'],text:tweet['text'], name:tweet['user']['name'])
       end
-
+      return @tweets
     end
   end
 end

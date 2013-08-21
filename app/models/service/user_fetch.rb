@@ -1,9 +1,9 @@
-require 'twitter'
+require 'twitter_oauth'
 module Service
   class UserFetch
     def self.fetch_user params
-      Service::TwitterSession.twitter_config
-      Service::UserFetchResult.new(Twitter.user('anand_agrawal')).to_model
+      client = Service::TwitterSession.auth
+      Service::UserFetchResult.new(client.show(params[:name])).to_model
     end
   end
 end

@@ -1,2 +1,2 @@
 collection @tweets
-attributes :created_at, :from_user, :text
+attributes :created_at, :text, :name
