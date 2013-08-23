@@ -4,9 +4,8 @@ TwitterApiTry::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  resources 'tweets' do
-      get 'show_tweets'
-  end
+  get 'tweets' => 'tweets#index'
+  get 'tweets/show' => 'tweets#show', :as => :show_tweets
   resources 'users'
 
 

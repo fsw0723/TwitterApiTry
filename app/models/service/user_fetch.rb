@@ -1,9 +1,13 @@
 require 'twitter_oauth'
 module Service
   class UserFetch
+    @client = Service::TwitterSession.auth
     def self.fetch_user params
-      client = Service::TwitterSession.auth
-      Service::UserFetchResult.new(client.show(params[:name])).to_model
+      Service::UserFetchResult.new(@client.show(params[:name])).to_model
+    end
+
+    def self.find_timeline user
+      Service::UserFetchResult.new(@client.send(:get, "/statuses/user_timeline.json?screen_name=#{user.screen_name}")).parse_timeline(user)
     end
   end
 end

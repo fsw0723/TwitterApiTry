@@ -1,0 +1,22 @@
+<h2>Tweets with '<%= params[:keyword] %>'</h2>
+<h5>
+  <% @tweets.each do |tweet| %>
+      <table>
+        <tr>
+          <td>Text:</td>
+          <td><%= tweet.text %></td>
+        </tr>
+        <tr>
+          <td>By:</td>
+          <td><%= tweet.user.name %></td>
+        </tr>
+        <tr>
+          <td>Created at:</td>
+          <td><%= tweet.created_at %></td>
+        </tr>
+      </table>
+      <br/>
+  <% end %>
+</h5>
+
+<%= link_to 'Back', tweets_path %>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GoogelApiTry.iml" filepath="$PROJECT_DIR$/.idea/GoogelApiTry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TwitterApiTry.iml" filepath="$PROJECT_DIR$/.idea/TwitterApiTry.iml" />
     </modules>
   </component>
 </project>

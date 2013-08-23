@@ -7,7 +7,7 @@ module Service
 
     def to_model
       @tweets.map! do |tweet|
-        Tweet.new(created_at: tweet['created_at'],text:tweet['text'], name:tweet['user']['name'])
+        Tweet.new(id: tweet['id'], created_at: tweet['created_at'],text:tweet['text'], user:User.new(name:tweet['user']['name']))
       end
       return @tweets
     end

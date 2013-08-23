@@ -6,7 +6,7 @@ describe Service::TweetSearchResult do
 
     result = Service::TweetSearchResult.new(response).to_model
     result.first.text.should == "RT @SassyGirI: hello 911\n\nI accidentally dropped the thun thun thun"
-    result.first.name.should == "Cady Bodenhamer"
+    result.first.user.name.should == "Cady Bodenhamer"
     result.first.created_at.should == "Wed Aug 21 04:29:08 +0000 2013"
   end
 end
