@@ -33,7 +33,7 @@ gem 'rest-client'
 gem 'twitter_oauth'
 gem 'unicorn'
 
-gem 'twitter_shuwei', :path =>"/Users/sfang/src/twitter_shuwei"
+gem 'twitter_shuwei', :git => 'https://github.com/fsw0723/twitter_shuwei.git'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
