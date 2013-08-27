@@ -1,11 +1,16 @@
 
-require 'rest_client'
+require 'twitter_shuwei'
 module Service
   class TweetSearch
 
     def self.search params
-      client = Service::TwitterSession.auth
-      Service::TweetSearchResult.new(client.send(:get, "/search/tweets.json?q=#{params[:keyword]}&count=#{params[:count]}&lang=en")).to_model
+
+      TwitterShuwei::TwitterClient.new(
+           :consumer_key => CONSUMER_KEY,
+           :consumer_secret => CONSUMER_SECRET,
+           :token => OAUTH_TOKEN,
+           :secret => OAUTH_TOKEN_SECRET
+       ).search_tweet(:keyword=>params[:keyword], :count => params[:count])
     end
   end
 end

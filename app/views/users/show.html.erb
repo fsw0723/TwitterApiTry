@@ -1,0 +1,17 @@
+<h2><%=@user.name%></h2>
+<%= image_tag(@user.profile_image_url, :size => "180x180") %>
+<h5>
+  <% @user.tweets.each do |tweet| %>
+      <table>
+        <tr>
+          <td>Text:</td>
+          <td><%= tweet.text %></td>
+        </tr>
+        <tr>
+          <td>Created at:</td>
+          <td><%= tweet.created_at %></td>
+        </tr>
+      </table>
+      <br/>
+  <% end %>
+</h5>

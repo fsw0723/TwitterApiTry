@@ -31,6 +31,9 @@ gem 'twitter', :git => 'https://github.com/sferik/twitter.git'
 gem 'rabl'
 gem 'rest-client'
 gem 'twitter_oauth'
+gem 'unicorn'
+
+gem 'twitter_shuwei', :path =>"/Users/sfang/src/twitter_shuwei"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -45,6 +48,7 @@ group :test do
   gem 'vcr', '~> 2.5.0'
   gem 'webmock', '1.11.0'
   gem 'pry'
+  gem 'cucumber-rails'
 end
 
 # Use ActiveModel has_secure_password

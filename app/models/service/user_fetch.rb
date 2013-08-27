@@ -1,13 +1,24 @@
-require 'twitter_oauth'
+require 'twitter_shuwei'
 module Service
   class UserFetch
-    @client = Service::TwitterSession.auth
     def self.fetch_user params
-      Service::UserFetchResult.new(@client.show(params[:name])).to_model
+      TwitterShuwei::TwitterClient.new(
+          :consumer_key => CONSUMER_KEY,
+          :consumer_secret => CONSUMER_SECRET,
+          :token => OAUTH_TOKEN,
+          :secret => OAUTH_TOKEN_SECRET
+      ).show_user(:name=>params[:name])
     end
 
     def self.find_timeline user
-      Service::UserFetchResult.new(@client.send(:get, "/statuses/user_timeline.json?screen_name=#{user.screen_name}")).parse_timeline(user)
+      tweets = TwitterShuwei::TwitterClient.new(
+          :consumer_key => CONSUMER_KEY,
+          :consumer_secret => CONSUMER_SECRET,
+          :token => OAUTH_TOKEN,
+          :secret => OAUTH_TOKEN_SECRET
+      ).fetch_timeline(:screen_name=>user.screen_name)
+      user.tweets = tweets
+      return user
     end
   end
 end
