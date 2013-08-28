@@ -1,0 +1,232 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/users/show.json?screen_name=gem
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Twitter Ruby Gem 4.8.1
+      Authorization:
+      - OAuth oauth_consumer_key="kcK4sgEVaOkmpPogw5UwQ", oauth_nonce="226c45c9f354367c3c654f828fbe7ce6",
+        oauth_signature="kUvSf6U3TqiTfhObEIrG2PbtjGc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1377066216", oauth_token="1672554398-uZt0fWOalAWY7QuRlQou7KuOxk4DlK9T8rVJWbL",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '1023'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 21 Aug 2013 06:23:35 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Wed, 21 Aug 2013 06:23:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137706621541661105; Domain=.twitter.com; Path=/; Expires=Fri,
+        21-Aug-2015 06:23:35 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '179'
+      X-Rate-Limit-Reset:
+      - '1377067115'
+      X-Transaction:
+      - 494d57a7be33b8a7
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAAKxVbW/jNgz+K4I/DBuWNbYVvwXYh67bDRtww+3aAQPOhSHL
+        tKOrLGWS3FxX9L+PihMn6Rs6bP5gW+RDmuRD0veBaIJlHNFskaVZOMNjZZ0J
+        lsEkC2aBYj2g6GoFpBzCxSLe4IPWxXgY72DIx6G+Iz9DjxaWGwBV7Qy7rUxq
+        zpzQCgWXTJF3hikuLNczcnGO6gbQSKx3iPPR28aw9Rpdt9qQq41wDt/PP/yC
+        8MFIhK2cWy/LeTl3Z1yXc6M+m6J43xYaEaCccAJssLwf0dsHHj/dv8X6y5qp
+        BprqEdRgWJiPPdOmK+f+Dc3HyHwSwq4lu9sZvY4VqhHch/cpnMXx9cP1w6Mi
+        TPFeP6BqbbQD7gD5apm0MAtaLaXegLEV14NywTKK8gjFRoBqJmGGlRcW7faC
+        lM4CpId5EXOe1wHIb/qWhAWJ8mVIl3FMvg3xInEYef5bdqsHIxxMTtHF4Hil
+        29YCHr+LkzjE7nGih+pvrTzpHxgXreDkCmXk6z8uyVfkginWsG/QYwe6AsVq
+        6dNxZsBsbsEg/ig965gb7OGbeYqZMNWhb1DBXu/LdJLN5aDIr4MkcU7CbJkk
+        WJVDNtTXHT9B04gWC5oXRUhpkhRhctT6T5Vo5eCL9/4RnDBCdcThMLRMSLJZ
+        MQlnOBhNThu8c0qJ7xZ71FmrP/nn9Hd5RT3vFmvJfYVwcELKGVkZaL8v39Ri
+        ZUAMSAQrPbJfjl7Az+Z+/ka/5ZyNKh+8GRRnx70jVGVgLe8qp6uxkJWvixqk
+        fEE5FucpACkyL9juVC9ZniyJUY19sX/lWptGKIza7kU4WhwOeuWMqAenzQQw
+        4DYA7qhLfev6zt2L4tO9sGJ25Vi3HTJk5q6vtdwdntkVL1L6zLIYsZ1wq6FG
+        g76c2xY7/OZA5RylvXDI0wJayjgPadLwOMtTVtRRxOIi4QueFDVbtEnU8ObJ
+        fnnN+xCHcXqyZeJsloS4ZjA1z0vv66DVuF8OhTq0yK6YR5K1tlbUSJ4FZbGG
+        tzCpDoP5cErNYcz3nWcrh6vfSobqg2ujWyGhqhm/6Qxy5deV9IAgjGNK/Rp6
+        BiN61sHjFc3CM6xC342F2UL8BK2gn55RUs7r7myNQb/ut9pyecKpFf/dv8Pz
+        k9zfkMwJFD8WF3EU5hFNsnJeQF7naRrzpsC+CdM8z2iaNLjAIIsWjFZKm57J
+        R0H9i0z//49LoW4OPIf54ofFkdaKBmpmqhoXATbsHneeX2TvsmdweJAT6iL8
+        8d1PF0cov8AnLd1eR1ociSf87/9MDbRskK7aYSfeHsn3Rid/Z+HH4kSC+++v
+        AazzQ+QmndLO/y3ZbiS30od/AAAA//8DAE/5/hueCQAA
+    http_version: 
+  recorded_at: Wed, 21 Aug 2013 06:23:38 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/users/show/gem.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - twitter_oauth gem v0.4.94 (OAuth gem v0.4.7)
+      Accept:
+      - ! '*/*'
+      Authorization:
+      - OAuth oauth_consumer_key="kcK4sgEVaOkmpPogw5UwQ", oauth_nonce="UwD6g2Oe2zEL9VVFVjwOtr3dhoB45I6OBrvCX3e4KDs",
+        oauth_signature="Bx0B5sTAoBBDgbU5F1cK6upPNGA%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1377074931", oauth_token="1672554398-uZt0fWOalAWY7QuRlQou7KuOxk4DlK9T8rVJWbL",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Length:
+      - '2462'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 21 Aug 2013 08:48:49 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Wed, 21 Aug 2013 08:48:49 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137707492989509893; Domain=.twitter.com; Path=/; Expires=Fri,
+        21-Aug-2015 08:48:49 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '176'
+      X-Rate-Limit-Reset:
+      - '1377075435'
+      X-Transaction:
+      - 5fb1b26ba3725264
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":213747670,"id_str":"213747670","name":"The \u0442w\u03b9\u0442\u0442er
+        Ruby Gem","screen_name":"gem","location":"San Francisco, CA","description":"A
+        Ruby wrapper for Twitter API","url":"http:\/\/t.co\/rnjr99Mf9o","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/rnjr99Mf9o","expanded_url":"http:\/\/rubygems.org\/gems\/twitter","display_url":"rubygems.org\/gems\/twitter","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1181,"friends_count":7,"listed_count":63,"created_at":"Tue
+        Nov 09 18:03:22 +0000 2010","favourites_count":3,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":86,"lang":"en","status":{"created_at":"Sun
+        Jul 28 07:55:11 +0000 2013","id":361394389903355905,"id_str":"361394389903355905","text":"Retiring
+        the fail whale. \ud83d\udc33 https:\/\/t.co\/hXcj6QlT3r","source":"\u003ca
+        href=\"http:\/\/rubygems.org\/gems\/twitter\" rel=\"nofollow\"\u003eThe Ruby
+        Gem\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":3,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"https:\/\/t.co\/hXcj6QlT3r","expanded_url":"https:\/\/github.com\/sferik\/twitter\/commit\/a4ef3acc035dc2786a9b11a295c4c59ba4f51dcd","display_url":"github.com\/sferik\/twitter\u2026","indices":[27,50]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"profile_background_color":"022330","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2921081357\/9e8b8662cd9c4c06887365d559e714a3_normal.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2921081357\/9e8b8662cd9c4c06887365d559e714a3_normal.png","profile_link_color":"0084B4","profile_sidebar_border_color":"A8C7F7","profile_sidebar_fill_color":"C0DFEC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Wed, 21 Aug 2013 08:48:53 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/users/show/gem.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - twitter_oauth gem v0.4.94 (OAuth gem v0.4.7)
+      Accept:
+      - ! '*/*'
+      Authorization:
+      - OAuth oauth_consumer_key="kcK4sgEVaOkmpPogw5UwQ", oauth_nonce="ZgLU1AxzDpyONBBkx8NB4ePLlhfH7ltqENvG0iL228",
+        oauth_signature="NBOjFssgtALv2HELORwd%2BzJPlsI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1377157728", oauth_token="1672554398-m0VpYgcLfnrqz0CxdabdYMK8ow9TFlivT2pyL1f",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Length:
+      - '2462'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 22 Aug 2013 07:48:44 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Thu, 22 Aug 2013 07:48:44 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A137715772434635662; Domain=.twitter.com; Path=/; Expires=Sat,
+        22-Aug-2015 07:48:44 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write-directmessages
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '175'
+      X-Rate-Limit-Reset:
+      - '1377158546'
+      X-Transaction:
+      - df20782416e750d4
+    body:
+      encoding: US-ASCII
+      string: ! '{"id":213747670,"id_str":"213747670","name":"The \u0442w\u03b9\u0442\u0442er
+        Ruby Gem","screen_name":"gem","location":"San Francisco, CA","description":"A
+        Ruby wrapper for Twitter API","url":"http:\/\/t.co\/rnjr99Mf9o","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/rnjr99Mf9o","expanded_url":"http:\/\/rubygems.org\/gems\/twitter","display_url":"rubygems.org\/gems\/twitter","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":1183,"friends_count":7,"listed_count":63,"created_at":"Tue
+        Nov 09 18:03:22 +0000 2010","favourites_count":3,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":86,"lang":"en","status":{"created_at":"Sun
+        Jul 28 07:55:11 +0000 2013","id":361394389903355905,"id_str":"361394389903355905","text":"Retiring
+        the fail whale. \ud83d\udc33 https:\/\/t.co\/hXcj6QlT3r","source":"\u003ca
+        href=\"http:\/\/rubygems.org\/gems\/twitter\" rel=\"nofollow\"\u003eThe Ruby
+        Gem\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":3,"favorite_count":2,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"https:\/\/t.co\/hXcj6QlT3r","expanded_url":"https:\/\/github.com\/sferik\/twitter\/commit\/a4ef3acc035dc2786a9b11a295c4c59ba4f51dcd","display_url":"github.com\/sferik\/twitter\u2026","indices":[27,50]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"},"contributors_enabled":false,"is_translator":false,"profile_background_color":"022330","profile_background_image_url":"http:\/\/a0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_image_url_https":"https:\/\/si0.twimg.com\/images\/themes\/theme15\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2921081357\/9e8b8662cd9c4c06887365d559e714a3_normal.png","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2921081357\/9e8b8662cd9c4c06887365d559e714a3_normal.png","profile_link_color":"0084B4","profile_sidebar_border_color":"A8C7F7","profile_sidebar_fill_color":"C0DFEC","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}'
+    http_version: 
+  recorded_at: Thu, 22 Aug 2013 07:48:49 GMT
+recorded_with: VCR 2.5.0
