@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a9fab521-2031-4845-b11b-3309e33adc57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TwitterApiTry.iml" afterPath="$PROJECT_DIR$/.idea/TwitterApiTry.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TwitterApiTry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377593193667" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377620887351" ignored="false" />
     <file path="/show.html.erb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377250587704" ignored="false" />
     <file path="/tweet_search.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377482578181" ignored="false" />
     <file path="/tweet.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377419621744" ignored="false" />
@@ -28,7 +27,7 @@
     <file path="/hello_shuwei.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377359601295" ignored="false" />
     <file path="$PROJECT_DIR$/../hello_shuwei/lib/hello_shuwei.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377359614253" ignored="false" />
     <file path="/a.rxml" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377360162721" ignored="false" />
-    <file path="/Gemfile" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377620830912" ignored="false" />
+    <file path="/Gemfile" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377654991470" ignored="false" />
     <file path="$PROJECT_DIR$/../twitter_shuwei/lib/twitter_shuwei.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377433329389" ignored="false" />
     <file path="/twitter_shuwei.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377433327469" ignored="false" />
     <file path="$PROJECT_DIR$/../twitter_shuwei/lib/twitter_shuwei/hello.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377410132396" ignored="false" />
@@ -45,7 +44,7 @@
     <file path="$PROJECT_DIR$/../twitter_shuwei/lib/twitter_shuwei/tweet.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377428278607" ignored="false" />
     <file path="$PROJECT_DIR$/../twitter_shuwei/lib/twitter_shuwei/client.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377425530635" ignored="false" />
     <file path="/client.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377423071892" ignored="false" />
-    <file path="$PROJECT_DIR$/../twitter_shuwei/.idea/workspace.xml" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377620866328" ignored="false" />
+    <file path="$PROJECT_DIR$/../twitter_shuwei/.idea/workspace.xml" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377654993601" ignored="false" />
     <file path="/tweets_controller.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377428805570" ignored="false" />
     <file path="$PROJECT_DIR$/../twitter_shuwei/lib/twitter_shuwei/twitter_client.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377483189649" ignored="false" />
     <file path="/twitter_client.rb" changelist="a9fab521-2031-4845-b11b-3309e33adc57" time="1377482907426" ignored="false" />
@@ -128,7 +127,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="73" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.6674584">
+            <state line="6" column="46" selection-start="173" selection-end="173" vertical-scroll-proportion="0.21377672">
               <folding />
             </state>
           </provider>
@@ -601,7 +600,11 @@
       <created>1377593196560</created>
       <updated>1377593196560</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change gem path">
+      <created>1377620891341</created>
+      <updated>1377620891341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -690,7 +693,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove logic to gem" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gem path" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -706,6 +709,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="fetch user timeline" />
     <MESSAGE value="remove logic to gem" />
+    <MESSAGE value="change gem path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -818,7 +822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="73" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.6674584">
+        <state line="6" column="46" selection-start="173" selection-end="173" vertical-scroll-proportion="0.21377672">
           <folding />
         </state>
       </provider>
